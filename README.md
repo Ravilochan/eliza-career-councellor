@@ -1,15 +1,71 @@
-# Project Starter
+# Eliza Career Counselor
 
-This is the starter template for ElizaOS projects.
+An AI-powered career guidance system for Indian high school students (grades 11-12) built with ElizaOS. This agent helps students explore career options, understand salary expectations, lifestyle implications, and educational pathways tailored to the Indian education system.
 
 ## Features
 
-- Pre-configured project structure for ElizaOS development
-- Comprehensive testing setup with component and e2e tests
-- Default character configuration with plugin integration
-- Example service, action, and provider implementations
-- TypeScript configuration for optimal developer experience
-- Built-in documentation and examples
+### Career Counseling Capabilities
+
+- **25+ Career Options**: Comprehensive database covering Technology, Healthcare, Engineering, Business, Creative, and more
+- **Personalized Recommendations**: Based on student interests, subjects (PCM/PCB/Commerce/Arts), and preferences
+- **Salary Information**: Current Indian market salaries with entry, mid, and senior level ranges
+- **Lifestyle Insights**: Work-life balance, stress levels, remote work options, and work environment details
+- **Education Pathways**: Entrance exams, top institutions, duration, and stream compatibility
+- **Interactive Frontend**: Modern UI for browsing careers with filtering and detailed views
+
+### Technical Features
+
+- ElizaOS-powered AI agent with natural language processing
+- Career matching algorithms based on student profiles
+- Comprehensive career database with real-time updates
+- Interactive web interface with career exploration tools
+- RESTful API endpoints for career information
+- TypeScript implementation with full type safety
+
+## Available Career Options
+
+The system includes comprehensive information for 25+ careers across various categories:
+
+### Technology Careers
+
+- Software Engineer (₹6-25 lakh/year)
+- Data Scientist (₹8-35 lakh/year)
+- Cybersecurity Analyst (₹5-25 lakh/year)
+- UI/UX Designer (₹4-25 lakh/year)
+
+### Healthcare Careers
+
+- Medical Doctor (MBBS) (₹8-40 lakh/year)
+- Nurse (₹3-12 lakh/year)
+- Pharmacist (₹3-12 lakh/year)
+- Psychologist (₹4-20 lakh/year)
+
+### Engineering Careers
+
+- Civil Engineer (₹4-20 lakh/year)
+- Mechanical Engineer (₹4-20 lakh/year)
+- Electrical Engineer (₹4-20 lakh/year)
+- Environmental Engineer (₹4-20 lakh/year)
+
+### Business & Finance Careers
+
+- Chartered Accountant (₹7-30 lakh/year)
+- Business Analyst (₹5-25 lakh/year)
+- Entrepreneur (₹1 lakh-5 crore/year)
+
+### Creative & Media Careers
+
+- Graphic Designer (₹3-15 lakh/year)
+- Fashion Designer (₹3-25 lakh/year)
+- Content Writer (₹3-15 lakh/year)
+- Journalist (₹3-15 lakh/year)
+
+### Other Popular Careers
+
+- Teacher (₹3-10 lakh/year)
+- Hotel Management (₹3-18 lakh/year)
+- Pilot (₹10-80 lakh/year)
+- Chef (₹3-20 lakh/year)
 
 ## Getting Started
 
@@ -79,15 +135,15 @@ Component tests use bun:test:
 
 ```typescript
 // Unit test example (__tests__/config.test.ts)
-describe('Configuration', () => {
-  it('should load configuration correctly', () => {
+describe("Configuration", () => {
+  it("should load configuration correctly", () => {
     expect(config.debug).toBeDefined();
   });
 });
 
 // Integration test example (__tests__/integration.test.ts)
-describe('Integration: Plugin with Character', () => {
-  it('should initialize character with plugins', async () => {
+describe("Integration: Plugin with Character", () => {
+  it("should initialize character with plugins", async () => {
     // Test interactions between components
   });
 });
@@ -98,10 +154,10 @@ E2E tests use ElizaOS test interface:
 ```typescript
 // E2E test example (e2e/project.test.ts)
 export class ProjectTestSuite implements TestSuite {
-  name = 'project_test_suite';
+  name = "project_test_suite";
   tests = [
     {
-      name: 'project_initialization',
+      name: "project_initialization",
       fn: async (runtime) => {
         // Test project in a real runtime
       },
