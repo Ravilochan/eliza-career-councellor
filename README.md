@@ -11,6 +11,13 @@
 
 [🚀 Live Demo](#) | [📖 Documentation](#documentation) | [💻 Installation](#installation)
 
+### 🖼️ Demo Screenshot
+
+<div align="center">
+  <img src="demo_doctor.png" alt="Eliza Career Counselor Demo - Doctor Career Information" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p><em>Interactive career counseling interface showing detailed doctor career information</em></p>
+</div>
+
 </div>
 
 ---
@@ -38,12 +45,14 @@
 Eliza Career Counselor is an intelligent AI agent built on ElizaOS that provides personalized career guidance for Indian high school students. The system combines natural language processing with a comprehensive career database to help students make informed decisions about their future.
 
 ### 🎓 Target Audience
+
 - **Grade 11-12 Students** in Indian schools
 - **Parents & Guardians** seeking career advice
 - **Career Counselors** needing data-driven insights
 - **Educational Institutions** for student guidance
 
 ### 🌟 Key Capabilities
+
 - **25+ Career Options** with detailed information
 - **Personalized Recommendations** based on interests and subjects
 - **Real-time Salary Data** for Indian job market
@@ -56,12 +65,14 @@ Eliza Career Counselor is an intelligent AI agent built on ElizaOS that provides
 ## ✨ Features
 
 ### 🤖 AI-Powered Career Counseling
+
 - **Natural Language Processing**: Understands student queries in conversational language
 - **Context-Aware Responses**: Remembers conversation history and preferences
 - **Personalized Recommendations**: Matches careers to student profiles
 - **Follow-up Suggestions**: Provides next steps and additional resources
 
 ### 📊 Comprehensive Career Database
+
 - **25+ Career Profiles**: Detailed information for each career path
 - **Salary Information**: Entry, mid, and senior level compensation
 - **Education Requirements**: Degrees, entrance exams, and institutions
@@ -69,6 +80,7 @@ Eliza Career Counselor is an intelligent AI agent built on ElizaOS that provides
 - **Skills & Competencies**: Required skills and certifications
 
 ### 🎨 Interactive User Interface
+
 - **Modern Web Interface**: Built with React and Tailwind CSS
 - **Career Browser**: Filter and search through career options
 - **Detailed Career Cards**: Comprehensive information display
@@ -76,6 +88,7 @@ Eliza Career Counselor is an intelligent AI agent built on ElizaOS that provides
 - **Dark Mode Support**: Comfortable viewing in any environment
 
 ### 🔍 Smart Filtering System
+
 - **Subject-Based Filtering**: PCM, PCB, Commerce, Arts streams
 - **Category-Based Search**: Technology, Healthcare, Engineering, etc.
 - **Salary Range Filtering**: Find careers within specific budgets
@@ -88,57 +101,64 @@ Eliza Career Counselor is an intelligent AI agent built on ElizaOS that provides
 The system includes comprehensive information for **25+ careers** across various categories:
 
 ### 💻 Technology Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Software Engineer | ₹6L | ₹12L | ₹25L | Good |
-| Data Scientist | ₹8L | ₹18L | ₹35L | Good |
-| Cybersecurity Analyst | ₹5L | ₹12L | ₹25L | Good |
-| UI/UX Designer | ₹4L | ₹10L | ₹25L | Good |
+
+| Career                | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| --------------------- | ------------ | ---------- | ------------- | ----------------- |
+| Software Engineer     | ₹6L          | ₹12L       | ₹25L          | Good              |
+| Data Scientist        | ₹8L          | ₹18L       | ₹35L          | Good              |
+| Cybersecurity Analyst | ₹5L          | ₹12L       | ₹25L          | Good              |
+| UI/UX Designer        | ₹4L          | ₹10L       | ₹25L          | Good              |
 
 ### 🏥 Healthcare Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Medical Doctor (MBBS) | ₹8L | ₹18L | ₹40L | Poor |
-| Nurse | ₹3L | ₹6L | ₹12L | Moderate |
-| Pharmacist | ₹3L | ₹6L | ₹12L | Excellent |
-| Psychologist | ₹4L | ₹9L | ₹20L | Good |
+
+| Career                | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| --------------------- | ------------ | ---------- | ------------- | ----------------- |
+| Medical Doctor (MBBS) | ₹8L          | ₹18L       | ₹40L          | Poor              |
+| Nurse                 | ₹3L          | ₹6L        | ₹12L          | Moderate          |
+| Pharmacist            | ₹3L          | ₹6L        | ₹12L          | Excellent         |
+| Psychologist          | ₹4L          | ₹9L        | ₹20L          | Good              |
 
 ### ⚙️ Engineering Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Civil Engineer | ₹4L | ₹9L | ₹20L | Good |
-| Mechanical Engineer | ₹4L | ₹9L | ₹20L | Good |
-| Electrical Engineer | ₹4L | ₹9L | ₹20L | Good |
-| Environmental Engineer | ₹4L | ₹9L | ₹20L | Good |
+
+| Career                 | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| ---------------------- | ------------ | ---------- | ------------- | ----------------- |
+| Civil Engineer         | ₹4L          | ₹9L        | ₹20L          | Good              |
+| Mechanical Engineer    | ₹4L          | ₹9L        | ₹20L          | Good              |
+| Electrical Engineer    | ₹4L          | ₹9L        | ₹20L          | Good              |
+| Environmental Engineer | ₹4L          | ₹9L        | ₹20L          | Good              |
 
 ### 💼 Business & Finance Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Chartered Accountant | ₹7L | ₹15L | ₹30L | Moderate |
-| Business Analyst | ₹5L | ₹12L | ₹25L | Good |
-| Entrepreneur | ₹1L | ₹10L | ₹5Cr | Poor (initially) |
+
+| Career               | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| -------------------- | ------------ | ---------- | ------------- | ----------------- |
+| Chartered Accountant | ₹7L          | ₹15L       | ₹30L          | Moderate          |
+| Business Analyst     | ₹5L          | ₹12L       | ₹25L          | Good              |
+| Entrepreneur         | ₹1L          | ₹10L       | ₹5Cr          | Poor (initially)  |
 
 ### 🎨 Creative & Media Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Graphic Designer | ₹3L | ₹7L | ₹15L | Good |
-| Fashion Designer | ₹3L | ₹8L | ₹25L | Good |
-| Content Writer | ₹3L | ₹6L | ₹15L | Excellent |
-| Journalist | ₹3L | ₹6L | ₹15L | Moderate |
+
+| Career           | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| ---------------- | ------------ | ---------- | ------------- | ----------------- |
+| Graphic Designer | ₹3L          | ₹7L        | ₹15L          | Good              |
+| Fashion Designer | ₹3L          | ₹8L        | ₹25L          | Good              |
+| Content Writer   | ₹3L          | ₹6L        | ₹15L          | Excellent         |
+| Journalist       | ₹3L          | ₹6L        | ₹15L          | Moderate          |
 
 ### 🌟 Other Popular Careers
-| Career | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
-|--------|-------------|------------|---------------|-------------------|
-| Teacher | ₹3L | ₹6L | ₹10L | Excellent |
-| Hotel Management | ₹3L | ₹7L | ₹18L | Moderate |
-| Pilot | ₹10L | ₹30L | ₹80L | Poor |
-| Chef | ₹3L | ₹8L | ₹20L | Poor |
+
+| Career           | Entry Salary | Mid Salary | Senior Salary | Work-Life Balance |
+| ---------------- | ------------ | ---------- | ------------- | ----------------- |
+| Teacher          | ₹3L          | ₹6L        | ₹10L          | Excellent         |
+| Hotel Management | ₹3L          | ₹7L        | ₹18L          | Moderate          |
+| Pilot            | ₹10L         | ₹30L       | ₹80L          | Poor              |
+| Chef             | ₹3L          | ₹8L        | ₹20L          | Poor              |
 
 ---
 
 ## 🔧 Installation & Setup
 
 ### Prerequisites
+
 - **Node.js** 18+ or **Bun** runtime
 - **ElizaOS** CLI installed globally
 - **Git** for version control
@@ -206,6 +226,7 @@ DATABASE_URL=postgresql://user:password@localhost:5432/career_db
 The Eliza Career Counselor understands natural language queries. Here are some example conversations:
 
 #### Basic Career Exploration
+
 ```
 Student: I'm in 12th PCM and interested in technology. What careers should I consider?
 
@@ -216,6 +237,7 @@ Eliza: Great! With your PCM background and technology interest, here are excelle
 ```
 
 #### Detailed Career Information
+
 ```
 Student: Tell me about being a software engineer
 
@@ -240,6 +262,7 @@ Eliza: Software Engineering is an excellent career choice! Here's the complete b
 ```
 
 #### Career Comparison
+
 ```
 Student: Compare software engineer vs doctor careers
 
@@ -265,6 +288,7 @@ Eliza: Here's a detailed comparison between Software Engineer and Medical Doctor
 ```
 
 #### Subject-Based Recommendations
+
 ```
 Student: I'm taking PCB in 12th. What are my career options?
 
@@ -297,22 +321,26 @@ The system supports various types of queries:
 ## 🎨 User Interface
 
 ### 🏠 Dashboard
+
 - **Career Statistics**: Total careers, categories, salary ranges
 - **Quick Filters**: Popular searches and recommendations
 - **Recent Searches**: History of user interactions
 
 ### 🔍 Career Browser
+
 - **Search Functionality**: Find careers by name or keywords
 - **Category Filters**: Technology, Healthcare, Engineering, etc.
 - **Stream Filters**: PCM, PCB, Commerce, Arts
 - **Salary Range Slider**: Filter by compensation expectations
 
 ### 📋 Career Detail View
+
 - **Comprehensive Information**: Salary, lifestyle, education
 - **Interactive Elements**: Expandable sections, comparison tools
 - **Action Buttons**: Save career, get recommendations, share
 
 ### 📱 Responsive Design
+
 - **Mobile-First**: Optimized for smartphones and tablets
 - **Progressive Web App**: Installable on mobile devices
 - **Offline Support**: Core functionality works without internet
@@ -324,40 +352,45 @@ The system supports various types of queries:
 ### Career Database API
 
 #### Get All Careers
+
 ```typescript
-import { careerDatabase } from './src/career-database';
+import { careerDatabase } from "./src/career-database";
 
 const allCareers = careerDatabase;
 // Returns: CareerOption[]
 ```
 
 #### Search Careers
-```typescript
-import { searchCareers } from './src/career-database';
 
-const results = searchCareers('engineer');
+```typescript
+import { searchCareers } from "./src/career-database";
+
+const results = searchCareers("engineer");
 // Returns: CareerOption[]
 ```
 
 #### Filter by Category
-```typescript
-import { getCareersByCategory } from './src/career-database';
 
-const techCareers = getCareersByCategory('Technology');
+```typescript
+import { getCareersByCategory } from "./src/career-database";
+
+const techCareers = getCareersByCategory("Technology");
 // Returns: CareerOption[]
 ```
 
 #### Filter by Stream
-```typescript
-import { getCareersByStream } from './src/career-database';
 
-const pcmCareers = getCareersByStream('PCM');
+```typescript
+import { getCareersByStream } from "./src/career-database";
+
+const pcmCareers = getCareersByStream("PCM");
 // Returns: CareerOption[]
 ```
 
 #### Filter by Salary Range
+
 ```typescript
-import { getCareersBySalaryRange } from './src/career-database';
+import { getCareersBySalaryRange } from "./src/career-database";
 
 const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 // Returns: CareerOption[]
@@ -366,6 +399,7 @@ const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 ### Agent Actions API
 
 #### Get Career Recommendations
+
 ```typescript
 // Action: GET_CAREER_RECOMMENDATIONS
 // Trigger: "career suggestions", "what careers should I consider"
@@ -375,6 +409,7 @@ const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 ```
 
 #### Get Career Details
+
 ```typescript
 // Action: GET_CAREER_DETAILS
 // Trigger: "tell me about", "what is", "career information for"
@@ -384,6 +419,7 @@ const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 ```
 
 #### Compare Careers
+
 ```typescript
 // Action: COMPARE_CAREERS
 // Trigger: "compare careers", "which is better", "versus"
@@ -393,6 +429,7 @@ const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 ```
 
 #### Get Careers by Category
+
 ```typescript
 // Action: GET_CAREERS_BY_CATEGORY
 // Trigger: "careers in", "jobs in", "options in"
@@ -408,6 +445,7 @@ const affordableCareers = getCareersBySalaryRange(500000, 1000000);
 The project includes comprehensive testing coverage:
 
 ### Test Structure
+
 ```
 src/__tests__/
 ├── *.test.ts              # Component tests
@@ -440,11 +478,13 @@ bun test --coverage
 ### Test Categories
 
 #### Component Tests
+
 - **Database Tests**: Career data validation, search functions
 - **Action Tests**: Handler validation, response formatting
 - **Integration Tests**: Component interaction testing
 
 #### E2E Tests
+
 - **User Scenarios**: Complete career counseling workflows
 - **Agent Responses**: Natural language processing validation
 - **Database Integration**: Real database operations
@@ -473,26 +513,31 @@ bun test --coverage
 ### Core Components
 
 #### 1. Career Database (`src/career-database.ts`)
+
 - **Purpose**: Centralized storage for career information
 - **Structure**: TypeScript interfaces and data arrays
 - **Functions**: Search, filter, and retrieval operations
 
 #### 2. Career Actions (`src/actions/career-actions.ts`)
+
 - **Purpose**: Handle user queries and generate responses
 - **Types**: GET_CAREER_RECOMMENDATIONS, GET_CAREER_DETAILS, etc.
 - **Logic**: Natural language processing and data formatting
 
 #### 3. Character Configuration (`src/character.ts`)
+
 - **Purpose**: Define Eliza Career Counselor's personality and capabilities
 - **Configuration**: System prompts, conversation examples, topics
 - **Plugins**: Integration with career counseling plugin
 
 #### 4. Frontend Interface (`src/frontend/`)
+
 - **Purpose**: User-friendly web interface for career exploration
 - **Technology**: React with TypeScript and Tailwind CSS
 - **Features**: Search, filtering, detailed career views
 
 #### 5. Plugin System (`src/plugin.ts`)
+
 - **Purpose**: Integrate career counseling into ElizaOS framework
 - **Actions**: Register career-related actions and handlers
 - **Services**: Manage plugin lifecycle and dependencies
@@ -514,40 +559,40 @@ bun test --coverage
 
 ```typescript
 interface CareerOption {
-  id: string;                    // Unique identifier
-  name: string;                  // Career name
-  category: string;              // Career category
-  description: string;           // Brief description
+  id: string; // Unique identifier
+  name: string; // Career name
+  category: string; // Career category
+  description: string; // Brief description
 
   averageSalary: {
-    entry: number;              // Entry-level salary (₹)
-    mid: number;                // Mid-level salary (₹)
-    senior: number;             // Senior-level salary (₹)
+    entry: number; // Entry-level salary (₹)
+    mid: number; // Mid-level salary (₹)
+    senior: number; // Senior-level salary (₹)
   };
 
   lifestyle: {
-    workHours: string;          // Typical working hours
-    workEnvironment: string;    // Work setting description
-    stressLevel: 'Low' | 'Medium' | 'High';
-    workLifeBalance: 'Poor' | 'Moderate' | 'Good' | 'Excellent';
-    travelRequired: boolean;    // Travel requirements
-    remoteWork: boolean;        // Remote work availability
+    workHours: string; // Typical working hours
+    workEnvironment: string; // Work setting description
+    stressLevel: "Low" | "Medium" | "High";
+    workLifeBalance: "Poor" | "Moderate" | "Good" | "Excellent";
+    travelRequired: boolean; // Travel requirements
+    remoteWork: boolean; // Remote work availability
   };
 
   education: {
-    stream: string[];           // Compatible streams (PCM, PCB, etc.)
-    degree: string;             // Required degree
-    entranceExams: string[];    // Entrance examinations
-    topInstitutions: string[];  // Recommended institutions
-    duration: string;           // Course duration
+    stream: string[]; // Compatible streams (PCM, PCB, etc.)
+    degree: string; // Required degree
+    entranceExams: string[]; // Entrance examinations
+    topInstitutions: string[]; // Recommended institutions
+    duration: string; // Course duration
   };
 
-  skills: string[];             // Required skills
-  jobOutlook: 'Stable' | 'Growing' | 'High Demand';
-  pros: string[];               // Career advantages
-  cons: string[];               // Career challenges
-  suitableFor: string[];        // Personality/career matches
-  alternatives: string[];       // Alternative career options
+  skills: string[]; // Required skills
+  jobOutlook: "Stable" | "Growing" | "High Demand";
+  pros: string[]; // Career advantages
+  cons: string[]; // Career challenges
+  suitableFor: string[]; // Personality/career matches
+  alternatives: string[]; // Alternative career options
 }
 ```
 
@@ -654,6 +699,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 ### Core Technologies
+
 - **ElizaOS**: The AI agent framework powering this application
 - **React**: Frontend user interface library
 - **TypeScript**: Type-safe JavaScript development
@@ -661,12 +707,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Bun**: Fast JavaScript runtime and package manager
 
 ### Data Sources
+
 - **Official Salary Surveys**: Glassdoor, Indeed, Naukri.com
 - **Government Reports**: Ministry of Education, Skill India
 - **Industry Research**: NASSCOM, FICCI, ASSOCHAM
 - **Educational Institutions**: IITs, NITs, IIMs, AIIMS
 
 ### Contributors
+
 - **Project Lead**: Career counseling expertise and content creation
 - **Technical Team**: Full-stack development and AI integration
 - **UX Designers**: User interface and experience design
@@ -674,6 +722,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Content Writers**: Career descriptions and educational content
 
 ### Special Thanks
+
 - **Indian Education System**: For providing the framework and context
 - **Career Counselors**: For insights into student needs and challenges
 - **Open Source Community**: For tools and libraries that made this possible
