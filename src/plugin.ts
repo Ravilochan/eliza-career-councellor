@@ -15,6 +15,7 @@ import {
   logger,
 } from '@elizaos/core';
 import { z } from 'zod';
+import { careerActions } from './actions/career-actions.js';
 
 /**
  * Define the configuration schema for the plugin with the following properties:
@@ -184,8 +185,8 @@ export class StarterService extends Service {
 }
 
 const plugin: Plugin = {
-  name: 'starter',
-  description: 'A starter plugin for Eliza',
+  name: 'career-counselor',
+  description: 'Career counseling plugin for Indian high school students',
   // Set lowest priority so real models take precedence
   priority: -1000,
   config: {
@@ -274,7 +275,7 @@ const plugin: Plugin = {
     ],
   },
   services: [StarterService],
-  actions: [helloWorldAction],
+  actions: careerActions,
   providers: [helloWorldProvider],
 };
 
