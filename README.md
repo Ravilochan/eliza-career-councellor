@@ -11,11 +11,16 @@
 
 [🚀 Live Demo](#) | [📖 Documentation](#documentation) | [💻 Installation](#installation)
 
-### 🖼️ Demo Screenshot
+### 🖼️ Demo Screenshots
 
 <div align="center">
-  <img src="demo_doctor.png" alt="Eliza Career Counselor Demo - Doctor Career Information" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p><em>Interactive career counseling interface showing detailed doctor career information</em></p>
+  <h4>🏥 Healthcare Career - Doctor</h4>
+  <img src="demo_doctor.png" alt="Eliza Career Counselor Demo - Doctor Career Information" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  
+  <h4>⚖️ Legal Career - Lawyer</h4>
+  <img src="demo_lawyer.png" alt="Eliza Career Counselor Demo - Lawyer Career Information" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  
+  <p><em>Interactive career counseling interface showing detailed career information across different fields</em></p>
 </div>
 
 </div>
